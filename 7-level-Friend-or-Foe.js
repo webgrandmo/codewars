@@ -9,3 +9,6 @@ const friend = friends => {
     return item.toString().length === 4;
   });
 }
+
+friend(["Ryan", "Kieran", "Mark"]);
+friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"]);
