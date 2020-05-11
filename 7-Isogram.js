@@ -13,3 +13,10 @@ If that same character is found, then it's not an isogram, else it is an isogram
 */
 
 const isIsogram = str => !str.match(/(.).*\1/i);
+
+
+isIsogram('Dermatoglyphics');
+isIsogram('ABBA');
+isIsogram('moOse');
+isIsogram('');
+
