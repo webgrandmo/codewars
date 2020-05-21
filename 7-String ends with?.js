@@ -15,7 +15,6 @@ solution('abc', 'd') // returns false
 // This code will just works fine.
 
 function solution(str, ending){
-  // TODO: complete
   if(str.slice(-ending.length) === ending || ending === '') {
     return true
   } else {
